@@ -1,0 +1,8 @@
+@misc{zhang2023gamma,
+      title={GAMMA: Graspability-Aware Mobile MAnipulation Policy Learning based on Online Grasping Pose Fusion}, 
+      author={Jiazhao Zhang and Nandiraju Gireesh and Jilong Wang and Xiaomeng Fang and Chaoyi Xu and Weiguang Chen and Liu Dai and He Wang},
+      year={2023},
+      eprint={2309.15459},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}

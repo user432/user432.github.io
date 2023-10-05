@@ -1,0 +1,18 @@
+@INPROCEEDINGS{9668424,
+
+  author={Naresh, Mandan and Gireesh, Nandiraju and Saxena, Paresh and Gupta, Manik},
+
+  booktitle={2022 14th International Conference on COMmunication Systems & NETworkS (COMSNETS)}, 
+
+  title={SAC-ABR: Soft Actor-Critic based deep reinforcement learning for Adaptive BitRate streaming}, 
+
+  year={2022},
+
+  volume={},
+
+  number={},
+
+  pages={353-361},
+
+  doi={10.1109/COMSNETS53615.2022.9668424}}
+

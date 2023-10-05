@@ -1,0 +1,8 @@
+@misc{gireesh2023sequenceagnostic,
+      title={Sequence-Agnostic Multi-Object Navigation}, 
+      author={Nandiraju Gireesh and Ayush Agrawal and Ahana Datta and Snehasis Banerjee and Mohan Sridharan and Brojeshwar Bhowmick and Madhava Krishna},
+      year={2023},
+      eprint={2305.06178},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}

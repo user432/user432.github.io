@@ -1,0 +1,8 @@
+@misc{gireesh2022object,
+      title={Object Goal Navigation using Data Regularized Q-Learning}, 
+      author={Nandiraju Gireesh and D. A. Sasi Kiran and Snehasis Banerjee and Mohan Sridharan and Brojeshwar Bhowmick and Madhava Krishna},
+      year={2022},
+      eprint={2208.13009},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}

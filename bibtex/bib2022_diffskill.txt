@@ -1,0 +1,6 @@
+@article{lin2021diffskill,
+    title={DiffSkill: Skill Abstraction from Differentiable Physics for Deformable Object Manipulations with Tools},
+    author={Lin, Xingyu and Huang, Zhiao and Li, Yunzhu and Tenenbaum, Joshua B. and Held, David and Gan, Chuang},
+    journal={International Conference on Learning Representation (ICLR)},
+    year={2022}
+}

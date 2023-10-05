@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> 
+
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Gireesh Nandiraju</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="css/font-1.css" rel="stylesheet" type="text/css">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet"
+          type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+
+    <!-- Custom styles for this template -->
+    <link href="css/grayscale.css" rel="stylesheet">
+
+    <style>
+        ul {
+            display:inline-block;
+            margin-bottom: 0;
+            /*font-size: 18px; !* You can adjust the font size to your preference *!*/
+        }
+        .pubInfo {
+            margin-left: 15px;
+            border-left-style: solid;
+            border-width:3px;
+            border-color: #aaaaaa;
+            max-width: 1000px;
+        }
+        /*img {*/
+        /*     border: 1px solid black; !* 2px is the border width, you can adjust as needed *!*/
+        /*}*/
+        #show-more-btn {
+            display: block;
+            text-align: center;
+            cursor: pointer;
+            color: grey;
+        }
+        .list-container {
+            all: inherit;
+            max-height: 400px;
+            overflow: hidden;
+        }
+        .inline-heading {
+            display: inline;
+            /* Add any additional styles for the specific heading if needed */
+        }
+    </style>
+    <script src="js/custom.js"></script>
+</head>
+
+<body id="page-top">
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Gireesh Nandiraju</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">
+            Menu
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#page-top">Home</a>
+                </li>
+                <!--<li class="nav-item">-->
+                <!--<a class="nav-link js-scroll-trigger" href="#news">News</a>-->
+                <!--</li>-->
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#pub">Publication</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Intro Header -->
+<!--<header class="masthead">-->
+<!--<div class="intro-body">-->
+<!--<div class="container">-->
+<!--<div class="row">-->
+<!--<div class="col-lg-8 mx-auto">-->
+<!--&lt;!&ndash;<h1 class="brand-heading">Xingyu Lin</h1>&ndash;&gt;-->
+<!--&lt;!&ndash; <p class="intro-text">A free, responsive, one page Bootstrap theme.-->
+<!--<br>Created by Start Bootstrap.</p> &ndash;&gt;-->
+<!--&lt;!&ndash;<a href="#about" class="btn btn-circle js-scroll-trigger">&ndash;&gt;-->
+<!--&lt;!&ndash;<i class="fa fa-angle-double-down animated"></i>&ndash;&gt;-->
+<!--&lt;!&ndash;</a>&ndash;&gt;-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</div>-->
+<!--</header>-->
+
+<div style="height: 80px;">&nbsp;</div>
+
+<script>
+    function toggleDropdown(elementId) {
+        var dropdown = document.getElementById(elementId);
+        if (dropdown.style.display === "none") {
+            dropdown.style.display = "block";
+        } else {
+            dropdown.style.display = "none";
+        }
+    }
+</script>
+
+<section id="about" class="container">
+    <br>
+    <div class="row">
+        <!--<div class="col-lg-12 text-center">-->
+        <!--<h4 class="section-heading">About</h4>-->
+        <!--<br> <br>-->
+        <!--</div>-->
+        <div class="col-md-3 panel">
+            <img src="./img/profile_cropped.png" width="100%">
+        </div>
+        <div class="col-md-9">
+            <h3>Xingyu Lin</h3>
+
+            <p>
+                I am currently a Research Intern at <a href="http://english.pku.edu.cn/">Peking University</a> and <a href="http://www.galbot.com/">Galbot</a>
+                advised by <a target="_blank" href="https://hughw19.github.io/">Prof. He Wang</a>. <br>
+                Previously I worked as a Research Assistant at <a href="https://robotics.iiit.ac.in/">Robotics Research Center, IIIT Hyderabad</a>, advised by
+                <a href="https://faculty.iiit.ac.in/~mkrishna/">Prof. K Madhava Krishna</a> and <a href="https://www.cs.bham.ac.uk/~sridharm/">Prof. Mohan Sridharan</a>.
+                <p>Prior to joining RRC, I graduated from BITS Pilani with a B.E. in Electronics and Instrumentation advised by <a href="https://psaxena86.github.io/">Prof.Paresh Saxena</a>. 
+                During this time, I also worked closely with <a href="https://pengtaoxie.github.io/">Prof. Pengtao Xie</a> and spent time as a remote research intern at <a href="https://ucsd.edu/">UCSD</a>.
+                
+            <b> I am seeking academic and industry positions in the upcoming year. Please reach out if you think I could be a good fit!</b>
+            <br> <br>
+
+            <p class="inline-heading">
+<!--                <a href="javascript:toggleDropdown('div_email_addr')">Email</a> /-->
+                <a target="_blank" href="https://scholar.google.com/citations?user=W2ax3cYAAAAJ&hl=en&citsig=AMD79orai0xDSFQGLQPWfAPjGey5Kd_Q8w">Google Scholar</a> /
+                <a target="_blank" href="https://github.com/user432">Github</a> /
+                <a target="_blank" href="https://twitter.com/girish_432">Twitter</a> /
+                <a target="_blank" href="./files/Xingyu_Lin_CV_Sep2023.pdf">CV (Oct. 2023)</a> /
+                f20170720h [at] alumni (dot) bits-pilani (dot) ac (dot) in
+<!--                <span id="div_email_addr" class="dropdown" style="display:none;color:darkblue;font-size:20px">xingyu (at) berkeley.edu</span>-->
+            </p>
+        </div>
+    </div>
+</section>
+<br>
+<section id="research" class="align-content-md-start">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-left" >
+                <h4 class="section-heading">Research</h4>
+            </div>
+            <p></p>
+            <div class="col-lg-12 text-left" >
+                <p style="display:inline">
+                    My research lies in robotics, machine learning, and computer vision, with the primary goal of <b> learning generalizable robot skills </b> from two angles:
+                <ul>
+                    <li> Learning structured world models with spatial and temporal abstractions.</li>
+                    <li> Visual and motion pre-training to enable knowledge transfer from Internet-scale vision datasets and simulators. </li>
+                </ul>
+                <p>
+                    Ultimately, my goal is to enable robots to assist humans in unstructured environments, particularly at home. To achieve this, many of my works consider tasks in <b>deformable object manipulation</b>, which are common in our daily lives but pose significant challenges for current robot systems.
+                </p>
+                </p>
+            </div>
+
+
+        </div>
+    </div>
+    </div>
+</section>
+
+<section id="news" class="align-content-md-start">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 text-left">
+                <h4 class="section-heading">News
+                </h4>
+            </div>
+        </div>
+        <div class="list-container">
+            <div class="row">
+                <div class="col-md-2 text-muted text-right">
+                    09/2023
+                </div>
+                <div class="col-md-10 text-muted">
+                    Submitted our work <a href="https://pku-epic.github.io/GAMMA/" target="_blank">GAMMA</a> to ICRA 2024!
+                </div>
+                <div class="col-md-2 text-muted text-right">
+                    07/2023
+                </div>
+                <div class="col-md-10 text-muted">
+                    Relocated to Beijing and started woirking as an intern advised by <a href="https://hughw19.github.io/" target="_blank">Prof. He Wang</a>.
+                </div>
+                <div class="col-md-2 text-muted text-right">
+                    01/2023
+                </div>
+                <div class="col-md-10 text-muted">
+                    One papers accepted at ICRA 2023
+                </div>
+                <br>
+                <div class="col-md-2 text-muted text-right">
+                    05/2022
+                </div>
+                <div class="col-md-10 text-muted">
+                    Two papers accepted at CASE 2022
+                </div>
+                <!-- <div class="col-md-2 text-muted text-right">
+                    05/2022
+                </div>
+                <div class="col-md-10 text-muted">
+                    I am selected as one of the <a target="_blank" href="https://sites.google.com/view/rsspioneers2022/">RSS Pioneers of 2022</a>.
+                </div> -->
+    <!--            <div class="col-md-2 text-muted text-right">-->
+    <!--                03/2022-->
+    <!--            </div>-->
+    <!--            <div class="col-md-10 text-muted">-->
+    <!--                I will join UC Berkeley as a post-doc in Prof. <a target="_blank" href="https://people.eecs.berkeley.edu/~pabbeel/">Pieter Abbeel</a>'s group starting in August!-->
+    <!--            </div>-->
+                <!-- <div class="col-md-2 text-muted text-right">
+                    02/2022
+                </div>
+                <div class="col-md-10 text-muted">
+                    Invited talks at UC Berkeley, MIT and Stanford.
+                </div> -->
+<!--                <div class="col-md-2 text-muted text-right">-->
+<!--                    01/2022-->
+<!--                </div>-->
+<!--                <div class="col-md-10 text-muted">-->
+<!--                    VCD code released! <a target="_blank" href="https://github.com/Xingyu-Lin/VCD">[Code]</a>-->
+<!--                </div>-->
+                <!-- <div class="col-md-2 text-muted text-right">
+                    01/2022
+                </div>
+                <div class="col-md-10 text-muted">
+                    One paper accepted at ICLR 2022! <a target="_blank" href="https://openreview.net/forum?id=Kef8cKdHWpP">[OpenReview]</a>
+                </div>
+                <div class="col-md-2 text-muted text-right">
+                    10/2021
+                </div>
+                <div class="col-md-10 text-muted">
+                    Proposed my PhD thesis. <a target="_blank" href="https://www.ri.cmu.edu/event/beyond-rigid-objects-data-driven-methods-for-manipulation-of-deformable-objects/"> [Link]
+                </a>
+                </div>
+                <div class="col-md-2 text-muted text-right">
+                    09/2021
+                </div>
+                <div class="col-md-10 text-muted">
+                    One paper on cloth manipulation accepted at CoRL 2021! <a target="_blank" href="https://openreview.net/forum?id=n1hDe9iK6ms">[OpenReview]</a>
+                </div>
+                <div class="col-md-2 text-muted text-right">
+                    07/2021
+                </div>
+                <div class="col-md-10 text-muted">
+                    Invited talk at RSS 2021 workshop on Deformable Object Simulation. (Co-present with David Held) <a target="_blank" href="https://sites.google.com/nvidia.com/do-sim/home?authuser=0">[Link]</a>
+                </div> -->
+            </div>
+        </div>
+<!--        <br>-->
+        <div class="col-md-10" id="show-more-btn">Show More</div>
+    </div>
+    <script>
+        const showMoreButton = document.getElementById('show-more-btn');
+        const listContainer = document.querySelector('.list-container');
+
+        let showMore = false;
+        listContainer.style.maxHeight = '170px';
+
+        showMoreButton.addEventListener('click', () => {
+            showMore = !showMore;
+            listContainer.style.maxHeight = showMore ? 'none' : '170px';
+            showMoreButton.textContent = showMore ? 'Show Less' : 'Show More';
+        });
+    </script>
+</section>
+
+<!--Experience-->
+<!--<section id="experience" class="bg-light-white">-->
+<!--<br> <br>-->
+<!--<div class="container">-->
+<!--<div class="row">-->
+<!--<div class="col-lg-12 text-center">-->
+<!--<h4 class="section-heading">Experience</h4>-->
+<!--<br> <br>-->
+<!--</div>-->
+<!--</div>-->
+<!--<br> <br>-->
+<!--</div>-->
+<!--</section>-->
+
+<section id="pub" class="bg-light-white">
+    <br> <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-10 text-left">
+                <h4 class="inline-heading">Publications</h4>
+                <big>
+                (<a href="" id="select0" onclick="showPubs(0); return false;">show selected</a> /
+                <a href="" id="select1" onclick="showPubs(1); return false;">show all by date</a>)
+                    </big>
+            </div>
+<!--      Reference: https://github.com/npuliyang/npuliyang.github.io/blob/8f1382b49c9f1de4852dada717c4613c1fdfdd95/index.html-->
+        </div>
+        <hr>
+        <div id="pubs">
+            <div class="text anchor">&nbsp;</div>
+        </div>
+<!--        <div class="row">-->
+<!--            <div class="col-md-3">-->
+<!--                <img class="img-fluid img-rounded" src="" alt="">-->
+<!--            </div>-->
+<!--            <div class="col-md-9">-->
+<!--                <b>	Planning with Spatial-Temporal Abstraction from Point Clouds for Deformable Object Manipulation</b>-->
+<!--                <br>-->
+<!--                <b>Xingyu Lin*</b>, Carl Qi*, Yunchu Zhang, Yunzhu Li, Zhiao Huang, Katerina Fragkiadaki, Chuang Gan, David Held-->
+<!--                <br>-->
+<!--                Preprint 2022-->
+<!--                <br>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <hr>-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-3">-->
+<!--                <img class="img-fluid img-rounded" src="" alt="">-->
+<!--            </div>-->
+<!--            <div class="col-md-9">-->
+<!--                <b>	Self-supervised Cloth Reconstruction via Action-conditioned Cloth Tracking</b>-->
+<!--                <br>-->
+<!--                Zixuan Huang, <b>Xingyu Lin</b>, David Held-->
+<!--                <br>-->
+<!--                Preprint 2022-->
+<!--                <br>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <hr>-->
+        <script id="pubs_selected" language="text">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid img-rounded" src="img/thumbnail_pub/2023_gamma.gif" alt="">
+                </div>
+                <div class="col-md-9">
+                    <b>	GAMMA: Graspability-Aware Mobile MAnipulation Policy Learning based on Online Grasping Pose Fusion </b>
+                    <br>
+                    Jiazhao Zhang*, <b>Nandiraju Gireesh*</b>, Jilong Wang, Xiaomeng Fang, Chaoyi Xu, Weiguang Chen, Liu Dai, He Wang
+                    <br>
+                    <b>submitted to ICRA 2024</b>
+                    <br>
+                    <a target="_blank" href="https://pku-epic.github.io/GAMMA/">Project Page</a> /
+                    <a target="_blank" href="https://arxiv.org/abs/2309.15459">Paper</a> /
+                    <a target="_blank" href="https://pku-epic.github.io/GAMMA/">Code</a> /
+                    <a href="javascript:copy(div2023_gamma, abs2023_gamma)">Abstract</a> /
+                    <a href="javascript:copy(div2023_gamma, bib2023_gamma)">Bibtex</a>
+                    <div id="abs2023_gamma" style="display:none">
+                        <div><object data="bibtex/abs2023_gamma.txt" type="text/plain" width="100%"> </object></div>
+                    </div>
+                    <div id="bib2023_gamma" style="display:none">
+                            <div><object data="bibtex/bib2023_gamma.txt" type="text/plain" width="100%"> </object></div>
+                    </div>
+                    <div id="div2023_gamma" class="pubInfo"> </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid img-rounded" src="img/thumbnail_pub/2023_sam.gif" alt="">
+                </div>
+                <div class="col-md-9">
+                    <b>Sequence-Agnostic Multi-Object Navigation </b>
+                    <br>
+                    <b>Nandiraju Gireesh*</b>, Ayush Agrawal*, Ahana Datta, Snehasis Banerjee, Mohan Sridharan, Brojeshwar Bhowmick, Madhava Krishna
+                    <br>
+                    <b><a target="_blank" href="https://www.icra2023.org/"> ICRA 2023</a></b>
+                    <br>
+                    <a target="_blank" href="https://arxiv.org/abs/2305.06178">Project Page</a> /
+                    <a target="_blank" href="https://arxiv.org/abs/2305.06178">Paper</a> /
+                    <a target="_blank" href="https://arxiv.org/abs/2305.06178">Code</a> /
+                    <a href="javascript:copy(div2023_sam, abs2023_sam)">Abstract</a> /
+                    <a href="javascript:copy(div2023_sam, bib2023_sam)">Bibtex</a>
+                    <div id="abs2023_sam" style="display:none">
+                        <div><object data="bibtex/abs2023_sam.txt" type="text/plain" width="100%"> </object></div>
+                    </div>
+                    <div id="bib2023_sam" style="display:none">
+                            <div><object data="bibtex/bib2023_sam.txt" type="text/plain" width="100%"> </object></div>
+                    </div>
+                    <div id="div2023_sam" class="pubInfo"> </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid img-rounded" src="img/thumbnail_pub/2022_drq.gif" alt="">
+                </div>
+                <div class="col-md-9">
+                    <b> Object Goal Navigation using Data Regularized Q-Learning </b>
+                    <br>
+                    <b>Nandiraju Gireesh</b>, D. A. Sasi Kiran, Snehasis Banerjee, Mohan Sridharan, Brojeshwar Bhowmick, Madhava Krishna
+                    <br>
+                    <b><a target="_blank" href="https://www.case2022.org/"> CASE 2022</a></b>
+                    <br>
+                    <a target="_blank" href="https://user432.github.io/objnav-drq/">Project Page</a> /
+                    <a target="_blank" href="https://arxiv.org/abs/2208.13009">Paper</a> /
+                    <a target="_blank" href="https://user432.github.io/objnav-drq/">Code</a> /
+                    <a href="javascript:copy(div2022_drq, abs2022_drq)">Abstract</a> /
+                    <a href="javascript:copy(div2022_drq, bib2022_drq)">Bibtex</a>
+                    <div id="abs2022_drq" style="display:none">
+                        <div ><object data="bibtex/abs2022_drq.txt" type="text/plain" width="100%"> </object></div>
+                    </div>
+                    <div id="bib2022_drq" style="display:none">
+                        <div><object data="bibtex/bib2022_drq.txt" type="text/plain" width="100%"> </object></div>
+                    </div>
+                    <div id="div2022_drq" class="pubInfo"> </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid img-rounded" src="img/thumbnail_pub/2022_srg.gif" alt="">
+                </div>
+                <div class="col-md-9">
+                    <b>Spatial Relation Graph and Graph Convolutional Network for Object Goal Navigation </b>
+                    <br>
+                    D. A. Sasi Kiran, Kritika Anand, Chaitanya Kharyal, Gulshan Kumar, <b>Nandiraju Gireesh</b>, Snehasis Banerjee,<br> 
+                    Ruddra dev Roychoudhury, Mohan Sridharan, Brojeshwar Bhowmick, Madhava Krishna
+                    <br>
+                    <b><a target="_blank" href="https://www.case2022.org/"> CASE 2022</a></b>
+                    <br>
+                    <a target="_blank" href="https://user432.github.io/objnav-srg/">Project Page</a> /
+                    <a target="_blank" href="https://arxiv.org/abs/2208.13031">Paper</a> /
+                    <a target="_blank" href="https://user432.github.io/objnav-srg/">Code</a> /
+                    <a href="javascript:copy(div2022_srg, abs2022_srg)">Abstract</a> /
+                    <a href="javascript:copy(div2022_srg, bib2022_srg)">Bibtex</a>
+                    <div id="abs2022_srg" style="display:none">
+                        <div ><object data="bibtex/abs2022_srg.txt" type="text/plain" width="100%"> </object></div>
+                    </div>
+                    <div id="bib2022_srg" style="display:none">
+                        <div><object data="bibtex/bib2022_srg.txt" type="text/plain" width="100%"> </object></div>
+                    </div>
+                    <div id="div2022_srg" class="pubInfo"></div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid img-rounded" src="img/thumbnail_pub/2022_sacabr.png" alt="">
+                </div>
+                <div class="col-md-9">
+                    <b> SAC-ABR: Soft Actor-Critic based deep reinforcement learning for Adaptive BitRate streaming </b>
+                    <br>
+                    Mandan Naresh, <b>Nandiraju Gireesh</b>, Paresh Saxena, Manik Gupta
+                    <br>
+                    <b><a target="_blank" href="https://www.comsnets.org/archive/2022/">COMSNETS 2022</a></b>
+                    <br>
+                    <a target="_blank" href="">Project Page</a> /
+                    <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/9668424">Paper</a> /
+                    <a target="_blank" href="">Code</a> /
+                    <a href="javascript:copy(div2022_sacabr, bib2022_sacabr)">Bibtex</a>
+                    <div id="bib2022_sacabr" style="display:none">
+                        <div><object data="bibtex/bib2022_sacabr.txt" type="text/plain" width="100%"> </object></div>
+                    </div>
+                    <div id="div2022_sacabr" class="pubInfo"></div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid img-rounded" src="img/thumbnail_pub/2020_xray.png" alt="">
+                </div>
+                <div class="col-md-9">
+                    <b> XRayGAN: Consistency-preserving Generation of X-ray Images from Radiology Reports </b>
+                    <br>
+                    Xingyi Yang, <b>Nandiraju Gireesh</b>, Eric Xing, Pengtao Xie
+                    <br>
+                    <b><a href="" target="_blank"> arXiv</a></b>
+                    <br>
+                    <a target="_blank" href="https://arxiv.org/abs/2006.10552" >Paper</a> /
+                    <a target="_blank" href="https://github.com/UCSD-AI4H/XRayGAN">Code</a> /
+                    <a href="javascript:copy(div2020_xray, bib2020_xray)">Bibtex</a>
+                    <div id="bib2020_xray" style="display:none">
+                        <div><object data="bibtex/bib2020_xray.txt" type="text/plain" width="100%"> </object></div>
+                    </div>
+                    <div id="div2020_xray" class="pubInfo"></div>
+                </div>
+            </div>
+            <hr>
+        <script id="pubs_all_by_date" language="text">
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid img-rounded" src="img/thumbnail_pub/2023_gamma.gif" alt="">
+                </div>
+                <div class="col-md-9">
+                    <b>	GAMMA: Graspability-Aware Mobile MAnipulation Policy Learning based on Online Grasping Pose Fusion </b>
+                    <br>
+                    Jiazhao Zhang*, <b>Nandiraju Gireesh*</b>, Jilong Wang, Xiaomeng Fang, Chaoyi Xu, Weiguang Chen, Liu Dai, He Wang
+                    <br>
+                    <b>submitted to ICRA 2024</b>
+                    <br>
+                    <a target="_blank" href="https://pku-epic.github.io/GAMMA/">Project Page</a> /
+                    <a target="_blank" href="https://arxiv.org/abs/2309.15459">Paper</a> /
+                    <a target="_blank" href="https://pku-epic.github.io/GAMMA/">Code</a> /
+                    <a href="javascript:copy(div2023_gamma, abs2023_gamma)">Abstract</a> /
+                    <a href="javascript:copy(div2023_gamma, bib2023_gamma)">Bibtex</a>
+                    <div id="abs2023_gamma" style="display:none">
+                        <div><object data="bibtex/abs2023_gamma.txt" type="text/plain" width="100%"> </object></div>
+                    </div>
+                    <div id="bib2023_gamma" style="display:none">
+                            <div><object data="bibtex/bib2023_gamma.txt" type="text/plain" width="100%"> </object></div>
+                    </div>
+                    <div id="div2023_gamma" class="pubInfo"> </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid img-rounded" src="img/thumbnail_pub/2023_sam.gif" alt="">
+                </div>
+                <div class="col-md-9">
+                    <b>Sequence-Agnostic Multi-Object Navigation </b>
+                    <br>
+                    <b>Nandiraju Gireesh*</b>, Ayush Agrawal*, Ahana Datta, Snehasis Banerjee, Mohan Sridharan, Brojeshwar Bhowmick, Madhava Krishna
+                    <br>
+                    <b><a target="_blank" href="https://www.icra2023.org/"> ICRA 2023</a></b>
+                    <br>
+                    <a target="_blank" href="https://arxiv.org/abs/2305.06178">Project Page</a> /
+                    <a target="_blank" href="https://arxiv.org/abs/2305.06178">Paper</a> /
+                    <a target="_blank" href="https://arxiv.org/abs/2305.06178">Code</a> /
+                    <a href="javascript:copy(div2023_sam, abs2023_sam)">Abstract</a> /
+                    <a href="javascript:copy(div2023_sam, bib2023_sam)">Bibtex</a>
+                    <div id="abs2023_sam" style="display:none">
+                        <div><object data="bibtex/abs2023_sam.txt" type="text/plain" width="100%"> </object></div>
+                    </div>
+                    <div id="bib2023_sam" style="display:none">
+                            <div><object data="bibtex/bib2023_sam.txt" type="text/plain" width="100%"> </object></div>
+                    </div>
+                    <div id="div2023_sam" class="pubInfo"> </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid img-rounded" src="img/thumbnail_pub/2022_drq.gif" alt="">
+                </div>
+                <div class="col-md-9">
+                    <b> Object Goal Navigation using Data Regularized Q-Learning </b>
+                    <br>
+                    <b>Nandiraju Gireesh</b>, D. A. Sasi Kiran, Snehasis Banerjee, Mohan Sridharan, Brojeshwar Bhowmick, Madhava Krishna
+                    <br>
+                    <b><a target="_blank" href="https://www.case2022.org/"> CASE 2022</a></b>
+                    <br>
+                    <a target="_blank" href="https://user432.github.io/objnav-drq/">Project Page</a> /
+                    <a target="_blank" href="https://arxiv.org/abs/2208.13009">Paper</a> /
+                    <a target="_blank" href="https://user432.github.io/objnav-drq/">Code</a> /
+                    <a href="javascript:copy(div2022_drq, abs2022_drq)">Abstract</a> /
+                    <a href="javascript:copy(div2022_drq, bib2022_drq)">Bibtex</a>
+                    <div id="abs2022_drq" style="display:none">
+                        <div ><object data="bibtex/abs2022_drq.txt" type="text/plain" width="100%"> </object></div>
+                    </div>
+                    <div id="bib2022_drq" style="display:none">
+                        <div><object data="bibtex/bib2022_drq.txt" type="text/plain" width="100%"> </object></div>
+                    </div>
+                    <div id="div2022_drq" class="pubInfo"> </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid img-rounded" src="img/thumbnail_pub/2022_srg.gif" alt="">
+                </div>
+                <div class="col-md-9">
+                    <b>Spatial Relation Graph and Graph Convolutional Network for Object Goal Navigation </b>
+                    <br>
+                    D. A. Sasi Kiran, Kritika Anand, Chaitanya Kharyal, Gulshan Kumar, <b>Nandiraju Gireesh</b>, Snehasis Banerjee,<br> 
+                    Ruddra dev Roychoudhury, Mohan Sridharan, Brojeshwar Bhowmick, Madhava Krishna
+                    <br>
+                    <b><a target="_blank" href="https://www.case2022.org/"> CASE 2022</a></b>
+                    <br>
+                    <a target="_blank" href="https://user432.github.io/objnav-srg/">Project Page</a> /
+                    <a target="_blank" href="https://arxiv.org/abs/2208.13031">Paper</a> /
+                    <a target="_blank" href="https://user432.github.io/objnav-srg/">Code</a> /
+                    <a href="javascript:copy(div2022_srg, abs2022_srg)">Abstract</a> /
+                    <a href="javascript:copy(div2022_srg, bib2022_srg)">Bibtex</a>
+                    <div id="abs2022_srg" style="display:none">
+                        <div ><object data="bibtex/abs2022_srg.txt" type="text/plain" width="100%"> </object></div>
+                    </div>
+                    <div id="bib2022_srg" style="display:none">
+                        <div><object data="bibtex/bib2022_srg.txt" type="text/plain" width="100%"> </object></div>
+                    </div>
+                    <div id="div2022_srg" class="pubInfo"></div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid img-rounded" src="img/thumbnail_pub/2022_sacabr.png" alt="">
+                </div>
+                <div class="col-md-9">
+                    <b> SAC-ABR: Soft Actor-Critic based deep reinforcement learning for Adaptive BitRate streaming </b>
+                    <br>
+                    Mandan Naresh, <b>Nandiraju Gireesh</b>, Paresh Saxena, Manik Gupta
+                    <br>
+                    <b><a target="_blank" href="https://www.comsnets.org/archive/2022/">COMSNETS 2022</a></b>
+                    <br>
+                    <a target="_blank" href="">Project Page</a> /
+                    <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/9668424">Paper</a> /
+                    <a target="_blank" href="">Code</a> /
+                    <a href="javascript:copy(div2022_sacabr, bib2022_sacabr)">Bibtex</a>
+                    <div id="bib2022_sacabr" style="display:none">
+                        <div><object data="bibtex/bib2022_sacabr.txt" type="text/plain" width="100%"> </object></div>
+                    </div>
+                    <div id="div2022_sacabr" class="pubInfo"></div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-3">
+                    <img class="img-fluid img-rounded" src="img/thumbnail_pub/2020_xray.png" alt="">
+                </div>
+                <div class="col-md-9">
+                    <b> XRayGAN: Consistency-preserving Generation of X-ray Images from Radiology Reports </b>
+                    <br>
+                    Xingyi Yang, <b>Nandiraju Gireesh</b>, Eric Xing, Pengtao Xie
+                    <br>
+                    <b><a href="" target="_blank"> arXiv</a></b>
+                    <br>
+                    <a target="_blank" href="https://arxiv.org/abs/2006.10552" >Paper</a> /
+                    <a target="_blank" href="https://github.com/UCSD-AI4H/XRayGAN">Code</a> /
+                    <a href="javascript:copy(div2020_xray, bib2020_xray)">Bibtex</a>
+                    <div id="bib2020_xray" style="display:none">
+                        <div><object data="bibtex/bib2020_xray.txt" type="text/plain" width="100%"> </object></div>
+                    </div>
+                    <div id="div2020_xray" class="pubInfo"></div>
+                </div>
+            </div>
+         </script>
+    </div>
+</section>
+
+<!-- Download Section -->
+<!-- <section id="download" class="download-section content-section text-center">
+  <div class="container">
+    <div class="col-lg-8 mx-auto">
+      <h4>Download Grayscale</h4>
+      <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
+      <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+    </div>
+  </div>
+</section> -->
+
+<br>
+
+<section id="service" class="align-content-md-start">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-left">
+                <h4 class="section-heading">Service</h4>
+            </div>
+            <div class="col-md-12">
+                <li>Journal Reviewer: IEEE RA-L </li>
+            </div>
+
+        </div>
+        <br><br>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<!--<section id="contact" class="align-content-md-start">-->
+<!--    <div class="container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-lg-12 text-left" >-->
+<!--                <h4 class="section-heading">Contact</h4>-->
+<!--            </div>-->
+<!--            <div class="col-md-12">-->
+<!--                Newell-Simon Hall, Room 4124, <br>-->
+<!--                Pittsburgh, PA 15213 <br>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</section>-->
+
+<!-- Map Section -->
+<!-- <div id="map"></div> -->
+
+<!-- Footer -->
+
+<!-- Bootstrap core JavaScript -->
+<script src="vendor/jquery/jquery.min.js"></script>
+<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+<!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+<!--<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>-->
+
+<!-- Custom scripts for this template -->
+<!--<script src="js/grayscale.js"></script>-->
+<script>showPubs(0);</script>
+<script>showPubs(1);</script>
+</body>
+
+</html>

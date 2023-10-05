@@ -1,0 +1,8 @@
+@misc{kiran2022spatial,
+      title={Spatial Relation Graph and Graph Convolutional Network for Object Goal Navigation}, 
+      author={D. A. Sasi Kiran and Kritika Anand and Chaitanya Kharyal and Gulshan Kumar and Nandiraju Gireesh and Snehasis Banerjee and Ruddra dev Roychoudhury and Mohan Sridharan and Brojeshwar Bhowmick and Madhava Krishna},
+      year={2022},
+      eprint={2208.13031},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO}
+}
