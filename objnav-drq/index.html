@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>ObjNav-DrQ</title>
+
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <base href="/"> -->
+
+        <!--FACEBOOK-->
+    <meta property="og:image" content="https://jonbarron.info/mipnerf/img/rays_square.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="682">
+    <meta property="og:image:height" content="682">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://user432.github.io/objnav-drq/"/>
+    <meta property="og:title" content="ObjNav-DrQ" />
+    <meta property="og:description" content="Project page for Object Goal Navigation using Data Regularized Q-Learning." />
+
+        <!--TWITTER-->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="mip-NeRF" />
+    <meta name="twitter:description" content="Project page for Mip-NeRF: A Multiscale Representation for Anti-Aliasing Neural Radiance Fields." />
+    <meta name="twitter:image" content="https://jonbarron.info/mipnerf/img/rays_square.png" />
+
+
+<!--     <link rel="apple-touch-icon" href="apple-touch-icon.png"> -->
+  <!-- <link rel="icon" type="image/png" href="img/seal_icon.png"> -->
+    <!-- Place favicon.ico in the root directory -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.8.0/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.3/clipboard.min.js"></script>
+
+    <script src="js/app.js"></script>
+</head>
+
+<body>
+    <div class="container" id="main">
+        <div class="row">
+            <h2 class="col-md-12 text-center">
+                Object Goal Navigation using <br> Data Regularized Q-Learning</br>
+                <small>
+                    IEEE CASE 2022
+                </small>
+            </h2>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <ul class="list-inline">
+                    <li>
+                        <a href="https://user432.github.io/">
+                          Nandiraju Gireesh
+                        </a>
+                      </br>IIIT Hyderabad, India
+                    </li>
+                    <li>
+                        <a>
+                            D. A. Sasi Kiran
+                        </a>
+                      </br>IIIT Hyderabad, India
+                    </li>
+                    <li>
+                        <a href="https://snehasisb.github.io/">
+                          Snehasis Banerjee
+                        </a>
+                      </br>TCS Research, India
+                    </li><br>
+                    <li>
+                        <a href="https://www.cs.bham.ac.uk/~sridharm/">
+                          Mohan Sridharan
+                        </a>
+                      </br>University of Birmingham, UK
+                    </li>
+                    <li>
+                        <a href="https://sites.google.com/view/brojeshwar/home">
+                          Brojeshwar Bhowmick
+                        </a>
+                      </br>TCS Research, India
+                    </li>
+                    <li>
+                        <a href="https://faculty.iiit.ac.in/~mkrishna/">
+                          Madhava Krishna
+                        </a>
+                      </br>IIIT Hyderabad, India
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="row">
+                <div class="col-md-4 col-md-offset-4 text-center">
+                    <ul class="nav nav-pills nav-justified">
+                        <li>
+                            <a href="https://arxiv.org/abs/2208.13009">
+                            <image src="img/mip_paper_image.jpg" height="60px">
+                                <h4><strong>Paper</strong></h4>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://youtu.be/3sXMWB8Rzo4">
+                            <image src="img/youtube_icon.png" height="60px">
+                                <h4><strong>Video</strong></h4>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                            <image src="img/github.png" height="60px">
+                                <h4><strong>Code</strong></h4>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Abstract
+                </h3>
+                <image src="img/objnav-drq.png" class="img-responsive" alt="overview"><br>
+                <p class="text-justify">
+Object Goal Navigation requires a robot to navigate to an instance of a target out-of-view object class in a previously unseen environment. The framework described in this paper, first builds a semantic map of the environment gradually over time, and then repeatedly selects a long-term goal based on the semantic map to locate the target object instance. The long-term goal -- `where to go' is formulated as a vision-based deep reinforcement learning problem. Specifically, an Encoder Network is trained to process a semantic map, extract high-level features, and select a long-term goal. In addition, we incorporate data augmentation and Q-function regularization to make the long-term goal selection process more effective. We report experimental results using the photo-realistic Gibson benchmark dataset in the AI Habitat 3D simulation environment to demonstrate that our framework substantially improves performance on standard measures in comparison with state of the art baseline.
+                </p>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Video
+                </h3>
+                <div class="text-center">
+                    <div style="position:relative;padding-top:56.25%;">
+                        <iframe src="https://www.youtube.com/embed/3sXMWB8Rzo4" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Citation
+                </h3>
+                <div class="form-group col-md-10 col-md-offset-1">
+                    <textarea id="bibtex" class="form-control" readonly>
+                    </textarea>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+                <h3>
+                    Acknowledgements
+                </h3>
+                <p class="text-justify">
+                ObjNav-DrQ was implemented on top of the <a href="https://github.com/devendrachaplot/Object-Goal-Navigation">SemExp</a> codebase.
+                <br>
+                The website template was borrowed from <a href="http://mgharbi.com/">Michaël Gharbi</a>.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
